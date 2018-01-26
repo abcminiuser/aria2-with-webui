@@ -10,4 +10,4 @@ fi
 touch /conf/aria2.session
 
 darkhttpd /aria2-webui --port 80 &
-aria2c --conf-path=/conf/aria2.conf
+aria2c --conf-path=/conf/aria2.conf --log=/logs.txt --file-allocation=trunc
